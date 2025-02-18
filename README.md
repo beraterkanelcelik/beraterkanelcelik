@@ -5,7 +5,7 @@
 
 - 📫 How to reach me **elcelikberaterkan@gmail.com**
 
-- 📄 Know about my experiences [https://github.com/beraterkanelcelik/beraterkanelcelik/blob/main/Cv_updated.pdf](https://github.com/beraterkanelcelik/beraterkanelcelik/blob/main/Cv_updated.pdf)
+- 📄 Know about my experiences [https://github.com/beraterkanelcelik/beraterkanelcelik/blob/main/resume.pdf](https://github.com/beraterkanelcelik/beraterkanelcelik/blob/main/resume.pdf)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
