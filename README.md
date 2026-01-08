@@ -30,7 +30,7 @@ I build **production-grade AI systems**: multi-agent workflows, RAG, retrieval/r
 - 🧠 Interested in: **RAG, agents, RL, scalable inference, evaluation & observability**
 - 🧩 I like work that’s: measurable, fast, and deployed
 
-📄 **Resume:** [resume.pdf](./resume.pdf) *(keep your file in the repo root as `resume.pdf`)*
+📄 **Resume:** [resume.pdf](./resume.pdf)
 
 ---
 
