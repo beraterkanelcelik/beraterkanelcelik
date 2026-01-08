@@ -43,7 +43,6 @@ I build **production-grade AI systems**: multi-agent workflows, RAG, retrieval/r
 ---
 
 ## Featured projects
-> Replace these links with your best repos (or create them if they’re private today).
 
 - 🚀 **TheUnichat** — React Native student community app (Supabase backend)  
   👉 https://github.com/beraterkanelcelik?tab=repositories
