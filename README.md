@@ -95,9 +95,6 @@ I build **production-grade AI systems**: multi-agent workflows, RAG, retrieval/r
 ---
 
 ## GitHub stats
-<img src="https://github-readme-stats.vercel.app/api?username=beraterkanelcelik&show_icons=true&include_all_commits=true&cache_seconds=86400" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=beraterkanelcelik&layout=compact&cache_seconds=86400" />
-
 
 
 <p align="center">
