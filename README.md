@@ -103,7 +103,7 @@ I build **production-grade AI systems**: multi-agent workflows, RAG, retrieval/r
 
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=beraterkanelcelik" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=beraterkanelcelik&cache_seconds=86400" />
 </p>
 
 ---
