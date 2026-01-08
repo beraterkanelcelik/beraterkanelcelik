@@ -60,10 +60,30 @@ I build **production-grade AI systems**: multi-agent workflows, RAG, retrieval/r
 ![JavaScript](https://img.shields.io/badge/JavaScript-000?logo=javascript&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-000?logo=postgresql&logoColor=white)
 
-### AI / Data
+### AI / ML (LLMs, RAG, Agents)
+**LLMs & Frameworks**
 ![PyTorch](https://img.shields.io/badge/PyTorch-000?logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-000?logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-000?logo=pandas&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/Hugging%20Face-000?logo=huggingface&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-000?logo=chainlink&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-000?style=flat&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-000?style=flat&logoColor=white)
+
+**RAG / Retrieval**
+![pgvector](https://img.shields.io/badge/pgvector-000?style=flat&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000?logo=postgresql&logoColor=white)
+![Vector%20Search](https://img.shields.io/badge/Vector%20Search-000?style=flat&logoColor=white)
+![Reranking](https://img.shields.io/badge/Reranking%20%2F%20Cross--Encoder-000?style=flat&logoColor=white)
+
+**Serving / Performance**
+![vLLM](https://img.shields.io/badge/vLLM-000?style=flat&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-000?logo=nvidia&logoColor=white)
+![Batched%20Inference](https://img.shields.io/badge/Batched%20Inference-000?style=flat&logoColor=white)
+
+**Evaluation / Observability**
+![Tracing](https://img.shields.io/badge/Tracing-000?style=flat&logoColor=white)
+![Metrics](https://img.shields.io/badge/Metrics%20%26%20Monitoring-000?style=flat&logoColor=white)
+![Cost%20Tracking](https://img.shields.io/badge/Token%20%26%20Cost%20Tracking-000?style=flat&logoColor=white)
+
 
 ### Backend / DevOps
 ![Docker](https://img.shields.io/badge/Docker-000?logo=docker&logoColor=white)
