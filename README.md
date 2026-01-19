@@ -24,30 +24,48 @@
 ---
 
 ## About me
-I build **production-grade AI systems**: multi-agent workflows, RAG, retrieval/reranking, and scalable inference—plus real products shipped to users.
+I build **production-grade AI systems**: multi-agent workflows, RAG, retrieval/reranking, scalable inference, and evaluation/observability—plus real products shipped to users.
 
 - 🔭 Currently: **AI Engineer @ PvFritz (remote, part-time)**
 - 🧠 Interested in: **RAG, agents, RL, scalable inference, evaluation & observability**
 - 🧩 I like work that’s: measurable, fast, and deployed
 
-📄 **Resume:** [resume.pdf](./resume.pdf)
+📄 **CV / Resume:** [Resume_12012026_clean.pdf](./Resume_12012026_clean.pdf)
 
 ---
 
 ## What I’m proud of (recent highlights)
 - 🧠 Built a **hierarchical multi-agent system** (Supervisor + specialized agents) with LangChain / LangGraph / MCP  
 - 🔎 Implemented **hybrid RAG** with pgvector + cross-encoder reranking  
-- ⚡ Worked on **batched inference** and performance benchmarking for higher throughput & lower latency  
+- ⚡ Worked on **batched inference** + benchmarking for higher throughput & lower latency  
+- 🖥️ Designed **multi-GPU inference serving** (Triton + OpenResty/Nginx), with rate limiting + secure API keys  
 - 📊 Added **observability**: traces, GPU metrics, token usage, error reporting, cost tracking
 
 ---
 
 ## Featured projects
 
-- 🚀 **TheUnichat** — React Native student community app (Supabase backend)  
-  👉 https://github.com/beraterkanelcelik?tab=repositories
-- 🎬 **Movie Recommendation System** — hybrid recommender (SVD + content-based)  
-  👉 https://github.com/beraterkanelcelik?tab=repositories
+### 🧠 Agent Playground — Multi-Agent AI Platform
+Production-style agent workflows + RAG + observability.
+- LangGraph (Functional API), type-safe task composition, real-time streaming
+- PostgreSQL/pgvector retrieval, document pipeline (incl. OCR support)
+- Langfuse observability, cost tracking, performance monitoring
+- React/TypeScript UI + Docker deployment  
+👉 https://github.com/beraterkanelcelik/Agent-Playground
+
+### 🔎 RAG Reranker Evaluator — Retrieval/Reranking Evaluation Toolkit
+A practical evaluation repo for comparing retrieval + reranking setups and measuring real quality.
+- RAG evaluation workflows, reranker comparisons, scoring/metrics
+- Experiment-friendly structure for iteration + reporting  
+👉 https://github.com/beraterkanelcelik/rag-reranker-evaluator
+
+### 🚀 TheUnichat — React Native student community app
+Full product build: frontend, backend, launch.
+👉 https://github.com/beraterkanelcelik?tab=repositories
+
+### 🎬 Movie Recommendation System — Hybrid recommender
+SVD + content-based hybrid recommendation experiments.
+👉 https://github.com/beraterkanelcelik?tab=repositories
 
 ---
 
@@ -74,17 +92,19 @@ I build **production-grade AI systems**: multi-agent workflows, RAG, retrieval/r
 ![Reranking](https://img.shields.io/badge/Reranking%20%2F%20Cross--Encoder-000?style=flat&logoColor=white)
 
 **Serving / Performance**
+![Triton](https://img.shields.io/badge/Triton%20Inference%20Server-000?style=flat&logoColor=white)
 ![vLLM](https://img.shields.io/badge/vLLM-000?style=flat&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-000?logo=nvidia&logoColor=white)
 ![Batched%20Inference](https://img.shields.io/badge/Batched%20Inference-000?style=flat&logoColor=white)
 
 **Evaluation / Observability**
+![Langfuse](https://img.shields.io/badge/Langfuse-000?style=flat&logoColor=white)
 ![Tracing](https://img.shields.io/badge/Tracing-000?style=flat&logoColor=white)
 ![Metrics](https://img.shields.io/badge/Metrics%20%26%20Monitoring-000?style=flat&logoColor=white)
 ![Cost%20Tracking](https://img.shields.io/badge/Token%20%26%20Cost%20Tracking-000?style=flat&logoColor=white)
 
-
 ### Backend / DevOps
+![Django](https://img.shields.io/badge/Django-000?logo=django&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-000?logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-000?logo=kubernetes&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000?logo=postgresql&logoColor=white)
@@ -95,8 +115,6 @@ I build **production-grade AI systems**: multi-agent workflows, RAG, retrieval/r
 ---
 
 ## GitHub stats
-
-
 <p align="center">
   <img src="https://github-readme-streak-stats-eight.vercel.app/?user=beraterkanelcelik&cache_seconds=86400" />
 </p>
