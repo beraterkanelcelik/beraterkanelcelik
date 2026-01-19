@@ -26,46 +26,46 @@
 ## About me
 I build **production-grade AI systems**: multi-agent workflows, RAG, retrieval/reranking, scalable inference, and evaluation/observability—plus real products shipped to users.
 
-- 🔭 Currently: **AI Engineer @ PvFritz (remote, part-time)**
-- 🧠 Interested in: **RAG, agents, RL, scalable inference, evaluation & observability**
-- 🧩 I like work that’s: measurable, fast, and deployed
+-  Currently: **AI Engineer @ PvFritz (remote, part-time)**
+-  Interested in: **RAG, agents, RL, scalable inference, evaluation & observability**
+-  I like work that’s: measurable, fast, and deployed
 
 📄 **CV / Resume:** [Resume](./resume.pdf)
 
 ---
 
 ## What I’m proud of (recent highlights)
-- 🧠 Built a **hierarchical multi-agent system** (Supervisor + specialized agents) with LangChain / LangGraph / MCP  
-- 🔎 Implemented **hybrid RAG** with pgvector + cross-encoder reranking  
-- ⚡ Worked on **batched inference** + benchmarking for higher throughput & lower latency  
-- 🖥️ Designed **multi-GPU inference serving** (Triton + OpenResty/Nginx), with rate limiting + secure API keys  
-- 📊 Added **observability**: traces, GPU metrics, token usage, error reporting, cost tracking
+-  Built a **hierarchical multi-agent system** (Supervisor + specialized agents) with LangChain / LangGraph / MCP  
+-  Implemented **hybrid RAG** with pgvector + cross-encoder reranking  
+-  Worked on **batched inference** + benchmarking for higher throughput & lower latency  
+-  Designed **multi-GPU inference serving** (Triton + OpenResty/Nginx), with rate limiting + secure API keys  
+-  Added **observability**: traces, GPU metrics, token usage, error reporting, cost tracking
 
 ---
 
 ## Featured projects
 
-### 🧠 Agent Playground — Multi-Agent AI Platform
+###  Agent Playground — Multi-Agent AI Platform
 Production-style agent workflows + RAG + observability.
 - LangGraph (Functional API), type-safe task composition, real-time streaming
 - PostgreSQL/pgvector retrieval, document pipeline (incl. OCR support)
 - Langfuse observability, cost tracking, performance monitoring
 - React/TypeScript UI + Docker deployment  
-👉 https://github.com/beraterkanelcelik/Agent-Playground
+  - https://github.com/beraterkanelcelik/Agent-Playground
 
-### 🔎 RAG Reranker Evaluator — Retrieval/Reranking Evaluation Toolkit
+###  RAG Reranker Evaluator — Retrieval/Reranking Evaluation Toolkit
 A practical evaluation repo for comparing retrieval + reranking setups and measuring real quality.
 - RAG evaluation workflows, reranker comparisons, scoring/metrics
 - Experiment-friendly structure for iteration + reporting  
-👉 https://github.com/beraterkanelcelik/rag-reranker-evaluator
+  - https://github.com/beraterkanelcelik/rag-reranker-evaluator
 
-### 🚀 TheUnichat — React Native student community app
+###  TheUnichat — React Native student community app
 Full product build: frontend, backend, launch.
 👉 https://github.com/beraterkanelcelik?tab=repositories
 
-### 🎬 Movie Recommendation System — Hybrid recommender
+###  Movie Recommendation System — Hybrid recommender
 SVD + content-based hybrid recommendation experiments.
-👉 https://github.com/beraterkanelcelik?tab=repositories
+  - https://github.com/beraterkanelcelik?tab=repositories
 
 ---
 
