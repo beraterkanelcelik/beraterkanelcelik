@@ -30,7 +30,7 @@ I build **production-grade AI systems**: multi-agent workflows, RAG, retrieval/r
 - 🧠 Interested in: **RAG, agents, RL, scalable inference, evaluation & observability**
 - 🧩 I like work that’s: measurable, fast, and deployed
 
-📄 **CV / Resume:** [Resume_12012026_clean.pdf](./Resume_12012026_clean.pdf)
+📄 **CV / Resume:** [Resume_12012026_clean.pdf](./resume.pdf)
 
 ---
 
