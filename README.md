@@ -30,7 +30,7 @@ I build **production-grade AI systems**: multi-agent workflows, RAG, retrieval/r
 -  Interested in: **RAG, agents, RL, scalable inference, evaluation & observability**
 -  I like work that’s: measurable, fast, and deployed
 
-📄 **CV / Resume:** [Resume](./resume.pdf)
+ **CV / Resume:** [Resume](./resume.pdf)
 
 ---
 
@@ -61,7 +61,7 @@ A practical evaluation repo for comparing retrieval + reranking setups and measu
 
 ###  TheUnichat — React Native student community app
 Full product build: frontend, backend, launch.
-👉 https://github.com/beraterkanelcelik?tab=repositories
+- https://github.com/beraterkanelcelik?tab=repositories
 
 ###  Movie Recommendation System — Hybrid recommender
 SVD + content-based hybrid recommendation experiments.
