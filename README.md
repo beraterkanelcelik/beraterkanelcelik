@@ -1,129 +1,76 @@
-<!-- Profile README for github.com/beraterkanelcelik -->
+# Berat Erkan Elçelik
 
-<h1 align="center">Hi, I'm Berat Erkan Elçelik 👋</h1>
+**AI Engineer · M.Sc. Artificial Intelligence (University of Bremen)**
+
+I build production AI systems — multi-agent orchestration, RAG pipelines, GPU-optimized inference, and real-time voice agents. I care about things that actually ship: measurable improvements, low latency, and clean observability.
+
+Currently working as an AI Engineer at **PvFritz** (remote), building hierarchical multi-agent systems with LangGraph/MCP over a multi-tenant Django platform.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/beraterkanelcelik)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:elcelikberaterkan@gmail.com)
+[![Website](https://img.shields.io/badge/Website-000?style=flat&logo=googlechrome&logoColor=white)](https://beraterkanelcelik.com)
+
+---
+
+## Work
+
+**AI Engineer — PvFritz UG** · Mar 2025 – Present
+- Hierarchical multi-agent system (Supervisor + 5 specialized agents) with LangGraph, MCP, and RBAC-based tenant isolation
+- Hybrid RAG: pgvector semantic search + Qwen3 cross-encoder reranking → high-precision retrieval across isolated tenant data
+- Multi-GPU inference (2× RTX 5070, Triton Inference Server, dynamic batching, OpenResty/Nginx) → **15–17 req/s, 40% latency reduction, 0% error rate over 27K+ requests**
+- Observability with SigNoz: agent traces, GPU metrics, token usage, cost estimation
+
+**Data Scientist — TAI (Turkish Aerospace Industries)** · Dec 2022 – Oct 2024
+- RL agents for autonomous aircraft (F-16, SU-27, HURJET) — DDPG, PPO, TD3 from scratch with custom reward shaping
+- Multi-agent dogfight training: 4 concurrent agents, adversarial self-play
+- Anomaly detection on flight telemetry (Isolation Forest, LOF, LSTM Autoencoders)
+
+---
+
+## Projects
+
+### [Agent Playground](https://github.com/beraterkanelcelik/Agent-Playground) — Multi-Agent AI Platform
+LangGraph Functional API · supervisor pattern · async tool execution · human-in-the-loop checkpointing. RAG with pgvector, document processing with OCR, Langfuse observability. React/TypeScript frontend, Docker deployment.
+
+### [RAG Reranker Evaluator](https://github.com/beraterkanelcelik/rag-reranker-evaluator) — Retrieval/Reranking Benchmark
+Evaluation framework comparing embedding models (BGE, E5) and cross-encoder rerankers on Vectara Open RAGBench. Measures NDCG, MRR, Recall@K — quantifies retrieval quality vs. latency tradeoffs.
+
+### Real-Time Voice Customer Agent — Production Voice AI
+LangGraph + LiveKit + Twilio telephony. Supervisor-worker architecture with specialized agents for inventory lookup, appointment booking, FAQ handling, and human-in-the-loop escalation. Engineered audio pipeline with µ-law encoding and downsampling for telephony-grade quality.
+
+### [TheUnichat](https://github.com/beraterkanelcelik) — Mobile App (React Native)
+University student community app. Founded, designed, developed, launched on iOS/Android — **500+ users in the first week.**
+
+---
+
+## Tech
+
+**Languages:** Python, JavaScript/TypeScript, SQL, C++, C
+
+**AI/ML:** LangChain, LangGraph, MCP, PyTorch, HuggingFace Transformers, PPO/TD3/DDPG, Anomaly Detection
+
+**RAG & Retrieval:** pgvector, Vector Search, Cross-Encoder Reranking
+
+**Inference & Serving:** Triton Inference Server, vLLM, CUDA, Dynamic Batching
+
+**Observability:** Langfuse, SigNoz, Custom Metrics Dashboards
+
+**Infrastructure:** Docker, Kubernetes, AWS, Azure, PostgreSQL, MongoDB, Redis, Nginx
+
+**Frontend:** React, React Native, TypeScript
+
+---
+
+## Education
+
+**M.Sc. Artificial Intelligence & Intelligent Systems** — University of Bremen *(Oct 2024 – Present)*
+
+**B.Sc. Computer Engineering** — Ankara University *(GPA: 3.76/4)*
+
+---
+
+## Stats
+
 <p align="center">
-  AI Engineer · Data Scientist · Builder
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=beraterkanelcelik&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
 </p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/beraterkanelcelik">
-    <img src="https://img.shields.io/badge/LinkedIn-beraterkanelcelik-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:elcelikberaterkan@gmail.com">
-    <img src="https://img.shields.io/badge/Email-elcelikberaterkan%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/beraterkanelcelik">
-    <img src="https://img.shields.io/badge/GitHub-beraterkanelcelik-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
-
-<p align="center">
-  📍 Bremen, Germany · 🎓 M.Sc. AI (University of Bremen)
-</p>
-
----
-
-## About me
-I build **production-grade AI systems**: multi-agent workflows, RAG, retrieval/reranking, scalable inference, and evaluation/observability—plus real products shipped to users.
-
--  Currently: **AI Engineer @ PvFritz (remote, part-time)**
--  Interested in: **RAG, agents, RL, scalable inference, evaluation & observability**
--  I like work that’s: measurable, fast, and deployed
-
- **CV / Resume:** [Resume](./resume.pdf)
-
----
-
-## What I’m proud of (recent highlights)
--  Built a **hierarchical multi-agent system** (Supervisor + specialized agents) with LangChain / LangGraph / MCP  
--  Implemented **hybrid RAG** with pgvector + cross-encoder reranking  
--  Worked on **batched inference** + benchmarking for higher throughput & lower latency  
--  Designed **multi-GPU inference serving** (Triton + OpenResty/Nginx), with rate limiting + secure API keys  
--  Added **observability**: traces, GPU metrics, token usage, error reporting, cost tracking
-
----
-
-## Featured projects
-
-###  Agent Playground — Multi-Agent AI Platform
-Production-style agent workflows + RAG + observability.
-- LangGraph (Functional API), type-safe task composition, real-time streaming
-- PostgreSQL/pgvector retrieval, document pipeline (incl. OCR support)
-- Langfuse observability, cost tracking, performance monitoring
-- React/TypeScript UI + Docker deployment  
-  - https://github.com/beraterkanelcelik/Agent-Playground
-
-###  RAG Reranker Evaluator — Retrieval/Reranking Evaluation Toolkit
-A practical evaluation repo for comparing retrieval + reranking setups and measuring real quality.
-- RAG evaluation workflows, reranker comparisons, scoring/metrics
-- Experiment-friendly structure for iteration + reporting  
-  - https://github.com/beraterkanelcelik/rag-reranker-evaluator
-
-###  TheUnichat — React Native student community app
-Full product build: frontend, backend, launch.
-- https://github.com/beraterkanelcelik?tab=repositories
-
-###  Movie Recommendation System — Hybrid recommender
-SVD + content-based hybrid recommendation experiments.
-  - https://github.com/beraterkanelcelik?tab=repositories
-
----
-
-## Tech stack
-### Languages
-![Python](https://img.shields.io/badge/Python-000?logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-000?logo=c%2B%2B&logoColor=white)
-![C](https://img.shields.io/badge/C-000?logo=c&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-000?logo=javascript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-000?logo=postgresql&logoColor=white)
-
-### AI / ML (LLMs, RAG, Agents)
-**LLMs & Frameworks**
-![PyTorch](https://img.shields.io/badge/PyTorch-000?logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/Hugging%20Face-000?logo=huggingface&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-000?logo=chainlink&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-000?style=flat&logoColor=white)
-![Transformers](https://img.shields.io/badge/Transformers-000?style=flat&logoColor=white)
-
-**RAG / Retrieval**
-![pgvector](https://img.shields.io/badge/pgvector-000?style=flat&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000?logo=postgresql&logoColor=white)
-![Vector%20Search](https://img.shields.io/badge/Vector%20Search-000?style=flat&logoColor=white)
-![Reranking](https://img.shields.io/badge/Reranking%20%2F%20Cross--Encoder-000?style=flat&logoColor=white)
-
-**Serving / Performance**
-![Triton](https://img.shields.io/badge/Triton%20Inference%20Server-000?style=flat&logoColor=white)
-![vLLM](https://img.shields.io/badge/vLLM-000?style=flat&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-000?logo=nvidia&logoColor=white)
-![Batched%20Inference](https://img.shields.io/badge/Batched%20Inference-000?style=flat&logoColor=white)
-
-**Evaluation / Observability**
-![Langfuse](https://img.shields.io/badge/Langfuse-000?style=flat&logoColor=white)
-![Tracing](https://img.shields.io/badge/Tracing-000?style=flat&logoColor=white)
-![Metrics](https://img.shields.io/badge/Metrics%20%26%20Monitoring-000?style=flat&logoColor=white)
-![Cost%20Tracking](https://img.shields.io/badge/Token%20%26%20Cost%20Tracking-000?style=flat&logoColor=white)
-
-### Backend / DevOps
-![Django](https://img.shields.io/badge/Django-000?logo=django&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-000?logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-000?logo=kubernetes&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000?logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-000?logo=mongodb&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-000?logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-000?logo=microsoftazure&logoColor=white)
-
----
-
-## GitHub stats
-<p align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=beraterkanelcelik&cache_seconds=86400" />
-</p>
-
----
-
-## Connect with me
-- LinkedIn: https://www.linkedin.com/in/beraterkanelcelik  
-- Email: **elcelikberaterkan@gmail.com**  
-- LeetCode: https://www.leetcode.com/beraterkanelcelik  
-- HackerRank: https://www.hackerrank.com/elcelikberaterk1  
-- Instagram: https://instagram.com/beraterkanelcelik
