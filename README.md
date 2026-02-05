@@ -35,7 +35,7 @@ LangGraph Functional API · supervisor pattern · async tool execution · human-
 ### [RAG Reranker Evaluator](https://github.com/beraterkanelcelik/rag-reranker-evaluator) — Retrieval/Reranking Benchmark
 Evaluation framework comparing embedding models (BGE, E5) and cross-encoder rerankers on Vectara Open RAGBench. Measures NDCG, MRR, Recall@K — quantifies retrieval quality vs. latency tradeoffs.
 
-### Real-Time Voice Customer Agent — Production Voice AI
+### [Real-Time Voice Customer Agent — Production Voice AI](https://github.com/beraterkanelcelik/customer-agent)
 LangGraph + LiveKit + Twilio telephony. Supervisor-worker architecture with specialized agents for inventory lookup, appointment booking, FAQ handling, and human-in-the-loop escalation. Engineered audio pipeline with µ-law encoding and downsampling for telephony-grade quality.
 
 ### [TheUnichat](https://github.com/beraterkanelcelik) — Mobile App (React Native)
